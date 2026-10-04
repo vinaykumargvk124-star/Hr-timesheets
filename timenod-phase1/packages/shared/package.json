@@ -1,0 +1,24 @@
+{
+  "name": "@timenod/shared",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./auth": "./src/auth.ts",
+    "./db": "./src/db.ts",
+    "./schema": "./src/schema.ts",
+    "./guard": "./src/guard.ts",
+    "./password": "./src/password.ts",
+    "./ui": "./src/ui.tsx",
+    "./styles.css": "./src/styles.css"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "drizzle-orm": "^0.44.0",
+    "next-auth": "5.0.0-beta.30",
+    "pg": "^8.13.0"
+  },
+  "peerDependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0"
+  }
+}
